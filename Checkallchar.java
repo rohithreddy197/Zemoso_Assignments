@@ -7,8 +7,8 @@ class Checkallchar
 	{
 		String s;
 		Scanner sc=new Scanner(System.in);
-		s=sc.nextLine();
-		s=s.toLowerCase();
+		s=sc.nextLine();			
+		s=s.toLowerCase();			//converting into case sensitive string
 		System.out.println(s);
 		int cnt[]=new int[26];        		//boolean array can be considered.
 		for(int i=0;i<s.length();i++){
