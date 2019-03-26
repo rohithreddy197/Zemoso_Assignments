@@ -41,6 +41,7 @@ class CycleAndBalancing{
         Unicycle u1=(Unicycle)o1;
         Bicycle b1=(Bicycle)o2;
         Tricycle t1=(Tricycle)o3;
+        t1.nomethod();
         //o3.balancing();     //Main.java:44: error: cannot find symbol o3.balancing();
         //o2.balancing();   //Main.java:43: error: cannot find symbol o2.balancing();
         b1.balancing();
