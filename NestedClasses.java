@@ -23,10 +23,10 @@ class Outer2{
         }
     }
 }
-class Main{
+class NestedClasses{
     public static void main(String a[]){
-        Outer1 o1=new Outer1();
-        Outer2.Inner2 o2=new Outer2().new Inner2(o1);
+        Outer1 o1=new Outer1();                        //creating object for outer class
+        Outer2.Inner2 o2=new Outer2().new Inner2(o1); //creating second nested class's object
     }
 }
 
