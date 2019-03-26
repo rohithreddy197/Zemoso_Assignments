@@ -1,4 +1,5 @@
-// time complexity of this code is o(n) where n is the size of string and space complexity is o(n). boolean array can be considered to store the count as true or false instead of count which will still give o(n) sc.
+// time complexity of this code is o(n) where n is the size of string and space complexity is o(n).
+//boolean array can be considered to store the count as true or false instead of count which will still give o(n) sc.
 import java.io.*;
 import java.util.*;
 class Checkallchar
