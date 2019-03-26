@@ -44,7 +44,7 @@ class Hamster extends Rodent {
     }
 }
 
-class Rodents {
+class RodentBreed {
     public static void main(String[] args) {
         //Array ofobjects for rodents
         Rodent[] rodent = new Rodent[3];
