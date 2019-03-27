@@ -13,7 +13,8 @@ interface Int3{
     public void method5();
     public void method6();
 }
-interface Int4 extends Int1,Int2,Int3{
+interface Int4 extends Int1,Int2,Int3{ 
+    //interface extending other interfaces because those methods are not implemented in interface
     public void method7();
 }
 class ConcreteClass{
@@ -62,7 +63,9 @@ class MultipleInterfaces extends ConcreteClass implements Int4{
          System.out.println("method3InMain in main");
     }
     public static void main(String x[]){
-        Main obj=new Main();
+        //create object for the class
+        MultipleInterfaces obj=new MultipleInterfaces();
+        //call the methods sending object as parameter
         method3InMain(obj);
         method2InMain(obj);
         method1InMain(obj);
