@@ -12,7 +12,7 @@ public class CyclesFactory {
         this.cName = cName;
     }
 
-    public void companyDetails() {
+    public void cycleDetails() {
         switch (cName) {
             case Unicycle: {
                 Unicycle unicycle=new Unicycle();
@@ -43,11 +43,11 @@ public class CyclesFactory {
 
     public static void main(String[] args) {
         CyclesFactory unicycle = new CyclesFactory(Cycles.Unicycle);
-        unicycle.companyDetails();
+        unicycle.cycleDetails();
         CyclesFactory bicycle = new CyclesFactory(Cycles.Bicycle);
-        bicycle.companyDetails();
+        bicycle.cycleDetails();
         CyclesFactory tricycle = new CyclesFactory(Cycles.TriCycle);
-        tricycle.companyDetails();
+        tricycle.cycleDetails();
 
     }
 }
