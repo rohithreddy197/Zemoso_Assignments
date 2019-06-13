@@ -1,6 +1,4 @@
 package cyclefactory;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class Bicycle implements CycleInterface {
 
